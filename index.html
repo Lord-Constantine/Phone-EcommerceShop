@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap" rel="stylesheet" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Glidejs Carousel -->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css"/>
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css"/>
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <!-- Animate on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Phone Shop</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <!-- Navigation -->
+        <div class="navigation">
+            <div class="container">
+                <nav class="nav">
+                    <div class="nav__hamburger">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="nav__logo">
+                        <a href="/" class="scroll-link">PHONE</a>
+                    </div>
+
+                    <div class="nav__menu">
+                        <div class="menu__top">
+                            <span class="nav__category">PHONE</span>
+                            <a href="#" class="close__toggle">
+                                <i class="fas fa-times"></i>
+                            </a>
+                        </div>
+ 
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#header" class="nav__link scroll-link">Home</a>
+                            </li>
+    
+                            <li class="nav__item">
+                                <a href="#category" class="nav__link scroll-link">Category</a>
+                            </li>
+    
+                            <li class="nav__item">
+                                <a href="#news" class="nav__link scroll-link">Blog</a>
+                            </li>
+    
+                            <li class="nav__item">
+                                <a href="#contact" class="nav__link scroll-link">Contact</a>
+                            </li>
+                       </ul>
+                    </div>
+   
+                   <div class="nav__icons">
+                        <a href="#" class="icon__item">
+                            <i class="fas fa-user"></i>
+                        </a>
+
+                        <a href="#" class="icon__item">
+                            <i class="fas fa-search"></i>
+                        </a>
+
+                        <a href="#" class="icon__item">
+                            <i class="fas fa-shopping-basket"></i>
+                            <span id="cart__total">0</span>
+                        </a>
+                   </div>
+                </nav>
+            </div>
+        </div>
+
+         <!-- Hero Area -->
+         <div class="hero"> 
+            <div class="glide" id="glide_1">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide">
+                            <div class="hero__center">
+                                <div class="hero__left">
+                                    <span>New Inspiration 2020</span>
+                                    <h1>PHONE MADE FOR YOU!</h1>
+                                    <p>Trending from mobile and headphone style collection</p>
+                                    <a href="#"><button class="hero__btn">SHOP NOW</button></a>
+                                </div>
+                                <div class="hero__right">
+                                    <div class="hero__img-container">
+                                        <img src="./images/banner_01.png" alt="" class="banner_01">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="hero__center">
+                                <div class="hero__left">
+                                    <span>New Inspiration 2020</span>
+                                    <h1>PHONE MADE FOR YOU!</h1>
+                                    <p>Trending from mobile and headphone style collection</p>
+                                    <a href="#"><button class="hero__btn">SHOP NOW</button></a>
+                                </div>
+                                <div class="hero__right">
+                                    <div class="hero__img-container">
+                                        <img src="./images/banner_02.png" alt="" class="banner_02">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div  class="glide__bullets" data-glide-el="controls[nav]">
+                    <button class="glide__bullet" data-glide-dir="=0"></button>
+                    <button class="glide__bullet" data-glide-dir="=1"></button>
+                </div>
+
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                        <i class="fas fa-arrow-right"></i> 
+                    </button>
+                </div>
+            </div>
+         </div>
+    </header>
+
+    <!-- Main -->
+    <main id="main">
+        <!-- collection -->
+        <section class="section collection" id="collection">
+            <div class="container">
+                <div class="collection__container">
+                    <div class="collection__box">
+                        <div class="img__container">
+                            <img src="./images/collection_02.png" class="collection_02">
+                        </div>
+                        <div class="collection__content">
+                            <div class="collection__data">
+                                <span>New Colors Introduced</span>
+                                <h1>HEADPHONES</h1>
+                                <a href="#">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="collection__box">
+                        <div class="img__container">
+                            <img src="./images/collection_01.png" class="collection_01">
+                        </div>
+                        <div class="collection__content">
+                            <div class="collection__data">
+                                <span>Phone Device Present</span>
+                                <h1>SMARTPHONES</h1>
+                                <a href="#">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Products -->
+        <div class="container">
+            <section class="section latest__products" id="latest">
+                <div class="title__container">
+                    <div class="section__title active" data-id="Latest Products">
+                        <span class="dot"></span>
+                        <h1 class="primary__title">Latest Products</h1>
+                    </div>
+                </div>
+    
+                <div class="container">
+                    <div class="glide" id="glide_2">
+                        <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides latest-center">
+                                <li class="glide__slide">
+                                    <div class="product">
+                                        <div class="product__header">
+                                            <img src="images/products/iPhone/iphone6.jpeg"/>
+                                        </div>
+                                        <div class="product__footer">
+                                            <h3>Apple iPhone 11</h3>
+                                            <div class="rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__price">
+                                                <h4>$750</h4>
+                                                <a href="#"><button type="button" class="product__btn">Add To Cart</button></a>
+                                            </div>
+                                            <ul>
+                                                    <a href="#">
+                                                        <i class="fas fa-eye"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fas fa-sync-alt"></i>
+                                                    </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="product">
+                                        <div class="product__header">
+                                            <img src="images/products/headphone/headphone10.jpeg"/>
+                                        </div>
+                                        <div class="product__footer">
+                                            <h3>Apple iPhone 11</h3>
+                                            <div class="rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__price">
+                                                <h4>$750</h4>
+                                                <a href="#"><button type="button" class="product__btn">Add To Cart</button></a>
+                                            </div>
+                                            <ul>
+                                                    <a href="#">
+                                                        <i class="fas fa-eye"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fas fa-sync-alt"></i>
+                                                    </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="product">
+                                        <div class="product__header">
+                                            <img src="images/products/iPhone/iphone3.jpeg"/>
+                                        </div>
+                                        <div class="product__footer">
+                                            <h3>Apple iPhone 11</h3>
+                                            <div class="rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__price">
+                                                <h4>$750</h4>
+                                                <a href="#"><button type="button" class="product__btn">Add To Cart</button></a>
+                                            </div>
+                                            <ul>
+                                                    <a href="#">
+                                                        <i class="fas fa-eye"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fas fa-sync-alt"></i>
+                                                    </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="product">
+                                        <div class="product__header">
+                                            <img src="images/products/sumsung/samsung2.jpeg"/>
+                                        </div>
+                                        <div class="product__footer">
+                                            <h3>Apple iPhone 11</h3>
+                                            <div class="rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__price">
+                                                <h4>$750</h4>
+                                                <a href="#"><button type="button" class="product__btn">Add To Cart</button></a>
+                                            </div>
+                                            <ul>
+                                                    <a href="#">
+                                                        <i class="fas fa-eye"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fas fa-sync-alt"></i>
+                                                    </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="product">
+                                        <div class="product__header">
+                                            <img src="images/products/headphone/headphone4.jpeg"/>
+                                        </div>
+                                        <div class="product__footer">
+                                            <h3>Apple iPhone 11</h3>
+                                            <div class="rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__price">
+                                                <h4>$750</h4>
+                                                <a href="#"><button type="button" class="product__btn">Add To Cart</button></a>
+                                            </div>
+                                            <ul>
+                                                    <a href="#">
+                                                        <i class="fas fa-eye"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fas fa-sync-alt"></i>
+                                                    </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="product">
+                                        <div class="product__header">
+                                            <img src="images/products/sumsung/samsung5.jpeg"/>
+                                        </div>
+                                        <div class="product__footer">
+                                            <h3>Apple iPhone 11</h3>
+                                            <div class="rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__price">
+                                                <h4>$750</h4>
+                                                <a href="#"><button type="button" class="product__btn">Add To Cart</button></a>
+                                            </div>
+                                            <ul>
+                                                    <a href="#">
+                                                        <i class="fas fa-eye"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fas fa-sync-alt"></i>
+                                                    </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="product">
+                                        <div class="product__header">
+                                            <img src="images/products/headphone/headphone5.jpeg"/>
+                                        </div>
+                                        <div class="product__footer">
+                                            <h3>Apple iPhone 11</h3>
+                                            <div class="rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__price">
+                                                <h4>$750</h4>
+                                                <a href="#"><button type="button" class="product__btn">Add To Cart</button></a>
+                                            </div>
+                                            <ul>
+                                                    <a href="#">
+                                                        <i class="fas fa-eye"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fas fa-sync-alt"></i>
+                                                    </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="product">
+                                        <div class="product__header">
+                                            <img src="images/products/sumsung/samsung2.jpeg"/>
+                                        </div>
+                                        <div class="product__footer">
+                                            <h3>Apple iPhone 11</h3>
+                                            <div class="rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__price">
+                                                <h4>$750</h4>
+                                                <a href="#"><button type="button" class="product__btn">Add To Cart</button></a>
+                                            </div>
+                                            <ul>
+                                                    <a href="#">
+                                                        <i class="fas fa-eye"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fas fa-sync-alt"></i>
+                                                    </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="product">
+                                        <div class="product__header">
+                                            <img src="images/products/iPhone/iphone2.jpeg"/>
+                                        </div>
+                                        <div class="product__footer">
+                                            <h3>Apple iPhone 11</h3>
+                                            <div class="rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__price">
+                                                <h4>$750</h4>
+                                                <a href="#"><button type="button" class="product__btn">Add To Cart</button></a>
+                                            </div>
+                                            <ul>
+                                                    <a href="#">
+                                                        <i class="fas fa-eye"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fas fa-sync-alt"></i>
+                                                    </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li> 
+                            </ul>
+                        </div>
+    
+                        <div class="glide__arrows" data-glide-el="controls">
+                            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                                <i class="fas fa-arrow-left"></i>
+                            </button>
+                            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                                <i class="fas fa-arrow-right"></i> 
+                            </button>
+                        </div>
+    
+                    </div>
+                </div>
+            </section>
+
+            <!-- Category center -->
+            <section class="category__section section" id="category">
+                <div class="tab__list">
+                    <div class="title__container tabs">
+                        <div class="section__titles category__titles">
+                            <div class="section__title filter-btn active" data-id="All Products">
+                                <span class="dot"></span>
+                                <h1 class="primary__title">All Products</h1>
+                            </div>
+                        </div>
+                        <div class="section__titles">
+                            <div class="section__title filter-btn" data-id="Trending Products">
+                                <span class="dot"></span>
+                                <h1 class="primary__title">Trending Products</h1>
+                            </div>
+                        </div>
+                        <div class="section__titles">
+                            <div class="section__title filter-btn" data-id="Special Products">
+                                <span class="dot"></span>
+                                <h1 class="primary__title">Special Products</h1>
+                            </div>
+                        </div>
+                        <div class="section__titles">
+                            <div class="section__title filter-btn" data-id="Featured Products">
+                                <span class="dot"></span>
+                                <h1 class="primary__title">Featured Products</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category__container">
+                        <div class="category__center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Facility section -->
+        <section class="facility__section section" id="facility">
+            <div class="container">
+                <div class="facility__container">
+                    <div class="facility__box">
+                        <div class="facility-img__container">
+                            <i class="fas fa-plane"></i>
+                        </div>
+                        <p>FREE SHIPPING WORLD WIDE</p>
+                    </div>
+
+                    <div class="facility__box">
+                        <div class="facility-img__container">
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                        <p>100% MONEY BACK GUARANTEE</p>
+                    </div>
+
+                    <div class="facility__box">
+                        <div class="facility-img__container">
+                            <i class="far fa-credit-card"></i>
+                        </div>
+                        <p>MANY PAYMENT GATEWAY</p>
+                    </div>
+
+                    <div class="facility__box">
+                        <div class="facility-img__container">
+                            <i class="fas fa-headphones-alt"></i>
+                        </div>
+                        <p>24/7 ONLINE SUPPORT</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial -->
+        <section class="section testimonial" id="testimonial">
+            <div class="testimonial__container">
+                <div class="glide" id="glide_3">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide">
+                                <div class="testimonial__box">
+                                    <div class="client__image">
+                                       <img src="images/profile1.jpg"> 
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Assumenda animi qui recusandae? Accusantium reprehenderit 
+                                        assumenda itaque libero exercitationem, quibusdam sunt iusto,
+                                         ut dignissimos ipsam ad voluptates 
+                                         nisi fugit similique magnam!</p>
+                                    <div class="client__info">
+                                        <h3>Paul hendrickson</h3>
+                                        <span>The Great fisherman</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="testimonial__box">
+                                    <div class="client__image">
+                                       <img src="images/profile2.jpg"> 
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Assumenda animi qui recusandae? Accusantium reprehenderit 
+                                        assumenda itaque libero exercitationem, quibusdam sunt iusto,
+                                         ut dignissimos ipsam ad voluptates 
+                                         nisi fugit similique magnam!</p>
+                                    <div class="client__info">
+                                        <h3>Annabel Ologbosere</h3>
+                                        <span>Married to Joshua the Crypto King</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="testimonial__box">
+                                    <div class="client__image">
+                                       <img src="images/profile3.jpg"> 
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Assumenda animi qui recusandae? Accusantium reprehenderit 
+                                        assumenda itaque libero exercitationem, quibusdam sunt iusto,
+                                         ut dignissimos ipsam ad voluptates 
+                                         nisi fugit similique magnam!</p>
+                                    <div class="client__info">
+                                        <h3>Timothy Peter</h3>
+                                        <span>The great palm-wine Tapper</span>
+                                    </div>
+                                </div>
+                            </li>   
+                            <li class="glide__slide">
+                                <div class="testimonial__box">
+                                    <div class="client__image">
+                                       <img src="images/profile4.jpg"> 
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Assumenda animi qui recusandae? Accusantium reprehenderit 
+                                        assumenda itaque libero exercitationem, quibusdam sunt iusto,
+                                         ut dignissimos ipsam ad voluptates 
+                                         nisi fugit similique magnam!</p>
+                                    <div class="client__info">
+                                        <h3>Joseph Andrew</h3>
+                                        <span>Expect Goat Hunter</span>
+                                    </div>
+                                </div>
+                            </li>                       
+                        </ul>
+                    </div>
+
+                    <div class="glide__bullets" data-glide-el="controls[nav]">
+                        <button class="glide__bullet" data-glide-dir="=0"></button>
+                        <button class="glide__bullet" data-glide-dir="=1"></button>
+                        <button class="glide__bullet" data-glide-dir="=2"></button>
+                        <button class="glide__bullet" data-glide-dir="=3"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section class="section news" id="news">
+            <div class="container">
+                <div class="title__container">
+                    <div class="section__titles">
+                        <div class="section__title active">
+                            <span class="dot"></span>
+                            <h1 class="primary__title">Phone News</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news__container">
+                    <div class="glide" id="glide_4">
+                        <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides">
+                                <li class="glide__slide">
+                                    <div class="new__card">
+                                        <div class="card__header">
+                                            <img src="./images/news1.jpg" alt="">
+                                        </div>
+                                        <div class="card__footer">
+                                            <h3>Styling White Shirts After A Cool Day</h3>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                                Animi quos eveniet, commodi enim itaque temporibus omnis 
+                                                autem odit. Dicta voluptatem, dolor dignissimos maxime 
+                                                libero itaque ratione iusto perspiciatis? Nam, beatae?</p>
+                                                <a href="#">Read More</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="new__card">
+                                        <div class="card__header">
+                                            <img src="./images/news2.jpg" alt="">
+                                        </div>
+                                        <div class="card__footer">
+                                            <h3>Styling White Shirts After A Cool Day</h3>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                                Animi quos eveniet, commodi enim itaque temporibus omnis 
+                                                autem odit. Dicta voluptatem, dolor dignissimos maxime 
+                                                libero itaque ratione iusto perspiciatis? Nam, beatae?</p>
+                                                <a href="#">Read More..</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="new__card">
+                                        <div class="card__header">
+                                            <img src="./images/news3.jpg" alt="">
+                                        </div>
+                                        <div class="card__footer">
+                                            <h3>Styling White Shirts After A Cool Day</h3>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                                Animi quos eveniet, commodi enim itaque temporibus omnis 
+                                                autem odit. Dicta voluptatem, dolor dignissimos maxime 
+                                                libero itaque ratione iusto perspiciatis? Nam, beatae?</p>
+                                                <a href="#">Read More..</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="new__card">
+                                        <div class="card__header">
+                                            <img src="./images/news4.jpg" alt="">
+                                        </div>
+                                        <div class="card__footer">
+                                            <h3>Styling White Shirts After A Cool Day</h3>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                                Animi quos eveniet, commodi enim itaque temporibus omnis 
+                                                autem odit. Dicta voluptatem, dolor dignissimos maxime 
+                                                libero itaque ratione iusto perspiciatis? Nam, beatae?</p>
+                                                <a href="#">Read More..</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="new__card">
+                                        <div class="card__header">
+                                            <img src="./images/news5.jpg" alt="">
+                                        </div>
+                                        <div class="card__footer">
+                                            <h3>Styling White Shirts After A Cool Day</h3>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                                Animi quos eveniet, commodi enim itaque temporibus omnis 
+                                                autem odit. Dicta voluptatem, dolor dignissimos maxime 
+                                                libero itaque ratione iusto perspiciatis? Nam, beatae?</p>
+                                                <a href="#">Read More..</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- NewsLetter -->
+        <section class="section newslettter" id="contact">
+            <div class="container">
+                <div class="newsletter__content">
+                    <div class="newsletter__data">
+                        <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                        <P>A short sentence describing what someone will receive by subscribing</P>
+                    </div>
+                    <form action="#">
+                        <input type="email" class="newsletter__email" placeholder="Enter your email address">
+                        <a href="#" class="newsletter__link">subsribe</a>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-top__box">
+                    <h3>Extra</h3>
+                    <a href="#">Brands</a>
+                    <a href="#">Gift Certificate</a>
+                    <a href="#">Affiliate</a>
+                    <a href="#">Special</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="footer-top__box">
+                    <h3>INFORMATION</h3>
+                    <a href="#">About Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="footer-top__box">
+                    <h3>Extra</h3>
+                    <a href="#">MY ACCOUNT</a>
+                    <a href="#">Order History</a>
+                    <a href="#">Wish List</a>
+                    <a href="#">Newsletter</a>
+                    <a href="#">Returns</a>
+                </div>
+                <div class="footer-top__box">
+                  <h3>CONTACT US</h3>
+                  <div class="">
+                    <span>
+                        <i class="fas fa-map-marker-alt"></i>
+                        42 Dream House, Dreamy Street, 7177 Dreamville, USA
+                    </span>
+                  </div> 
+                  <div class="">
+                    <span>
+                        <i class="fas fa-mail-bulk"></i>
+                        Company@gmail.com
+                    </span>
+                  </div>
+                  <div class="">
+                    <span>
+                        <i class="fas fa-phone-square-alt"></i>
+                        08115894680
+                    </span>
+                  </div>
+                  <div class="">
+                    <span>
+                        <i class="fas fa-flag-usa"></i>
+                        Dreamville, USA
+                    </span>
+                  </div> 
+                </div>     
+            </div>
+        </div>
+    </footer> 
+
+    <!-- PopUP -->
+    <div class="popup hide__popup">
+        <div class="popup__content">
+                <div class="popup__close">
+                    <i class="far fa-times-circle"></i>
+                </div>
+
+                <div class="popup__left">
+                    <div class="popup-img__container">
+                        <img src="images/popup.jpg" class="popup__img">
+                    </div>
+                </div>
+                
+                <div class="popup__right">
+                    <div class="right__content">
+                        <h1>Get Discount <span>30%</span> Off</h1>
+                        <p>Sign up to our newsletter and save 30% for your next purchase.NO spam, 
+                            we promise!</p>
+                        <form action="#">
+                            <input type="email" class="popup__form" placeholder="Enter your email ...">
+                            <a href="#">Subscribe</a>
+                        </form>    
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <!-- Go To Top -->
+    <a href="#header" class="goto-top scroll-link">
+        <i class="fas fa-arrow-alt-circle-up"></i>
+    </a>
+
+    <!-- Glidejs -->
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- script -->
+    <script src="js/index.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
