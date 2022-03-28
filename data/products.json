@@ -2,7 +2,7 @@
     "products": [{
             "id": 6,
             "title": "Apple iPhone 11",
-            "image": "/images/products/iphone/iphone3.jpeg",
+            "image": "/images/products/iPhone/iphone3.jpeg",
             "price": 760,
             "category": "Featured Products"
         },
@@ -17,14 +17,14 @@
         {
             "id": 4,
             "title": "Apple iPhone 11",
-            "image": "/images/products/iphone/iphone2.jpeg",
+            "image": "/images/products/iPhone/iphone2.jpeg",
             "price": 850,
             "category": "Special Products"
         },
         {
             "id": 8,
             "title": "Apple iPhone 11",
-            "image": "/images/products/iphone/iphone4.jpeg",
+            "image": "/images/products/iPhone/iphone4.jpeg",
             "price": 290,
             "category": "Featured Products"
         },
@@ -48,7 +48,7 @@
         {
             "id": 10,
             "title": "Apple iPhone 11 Pro",
-            "image": "/images/products/iphone/iphone5.jpeg",
+            "image": "/images/products/iPhone/iphone5.jpeg",
             "price": 385,
             "category": "Special Products"
         },
@@ -62,7 +62,7 @@
         {
             "id": 13,
             "title": "Apple iPhone 11",
-            "image": "/images/products/iphone/iphone6.jpeg",
+            "image": "/images/products/iPhone/iphone6.jpeg",
             "price": 800,
             "category": "Trending Products"
         },
@@ -112,7 +112,7 @@
         {
             "id": 2,
             "title": "Apple iPhone 11",
-            "image": "/images/products/iphone/iphone1.jpeg",
+            "image": "/images/products/iPhone/iphone1.jpeg",
             "price": 300,
             "category": "Special Products"
         },
